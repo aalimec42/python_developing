@@ -1,1 +1,129 @@
+# in if-else after if statement start the nxt line after if and also same for the else
+# otherwise it will consider the content that doesn't belong to if or else statement
+# if (False):
+#     print("hi welcome")
+# else:
+#     print("get rid of here")
+# print("win"=="winn")
+# if or else block, only one of them will work according to the condition.
+# csk = "lose"
+# if (csk=="win"):
+#     print("csk ku whistle podu")
+# else:
+#     print("illa **thha paathukalaam")
+# meghna=str(input("meghna died or not :"))
+# if (meghna=="died"):
+#     print("surya meets priya")
+# else:
+#     print("surya weds meghna")
+# csk ="lose"
+# if (csk=="win"):
+#    print("csk ku whistle podu")
+# else:
+#     print("illa **thha paathukalaam")
+# like== there is may other comparison operators are there in the python
 
+***** part 2 *****
+#eg no6:make a mini calculator get i/p f0r two no's A and B ,get i/p from user whether add/sub/mul/div..
+
+#a=int(input("n1:"))
+#b=int(input("n2:"))
+#operation=input("+,-,*,/:")
+#if(operation=="+"):
+#    print(a+b)
+#elif(operation=="-"):
+#    print(a+b)
+#elif(operation=="*"):
+#    print(a*b)
+#elif(operation=="/"):
+#    print(a/b)
+#else:
+#    print("Invalid syntax")
+
+#get a input for score percentage.only if the percentage is greater than 70 then print you are eligible or not eligible ,get input for his name ,dept,and location if eligible.
+score=int(input("Score percentage:"))
+if(score>=70):
+    name=str(input("Enter your name:"))
+    age=int(input("Enter your age:"))
+    location=str(input("Enter your location:"))
+    print("Your are eligible!!")
+else:
+    print("Your are not eligible!!")
+
+***** part 3 *****
+#eg no.8:get input for salary and age .if salary greater than or equal to 20000 or age less than or equal to 25,get input for required loan amount. if not print you are not eligible for loan.
+#if required loan amount is less than or equal to 50,000 print you are eligible for loan.if it is greater than 50,000 print maximum loan amount is 50,000.
+
+#salary=int(input("Enter your salary:"))
+#age=int(input("Enter your Age:"))
+#if(salary>=20000 and age<=25):
+ #   print("you r eligible for the loan .provide your info!.click Enter!!!!")
+#    name=str(input("Enter your name:"))
+#   age=int(input("Enter your age:"))
+ #   location=str(input("Enter your location:"))
+ #   sign=input("signature____________")
+ #   reqamt=int(input("Required amt:"))
+#   if(reqamt<=50000):
+#        print("You r eligible for a required loan!")
+ #   else:
+ #        print("max amount of loan is provided only 50000 so you r not applicable for the further process of your loan...")
+
+#else:
+ #   print("you r not applicable for the loan")
+
+ #eg no.9: get input for five subjects marks .add all of it,and find average.if average mark is less than 35.Print"additional class is required"else print"you are good to go"
+
+a=int(input("Enter sub 1 mark:"))
+b=int(input("Enter sub 2 mark:"))
+c=int(input("Enter sub 3 mark:"))
+d=int(input("Enter sub 4 mark:"))
+e=int(input("Enter sub 5 mark:"))
+f=int((a+b+c+d+e)/5)
+
+if(f<35):
+    print("additional class is required")
+else:
+    print("you r good to go")
+
+***** part 4 *****
+#mark=int(input("Enter your marks:"))
+#if (mark>35):
+#    print("pass")
+#else:
+#   print("fail")
+#eg no:1,get input for variable income.if income is lesser than 7000 scholarship is available.Else not eligible for scholarship
+
+#income=int(input("Enter your income in numbers:"))
+#if (income>7000):
+#   print("Scholarship is not available for you..")
+#else:
+#    print("yes u r eligible for the scholarship terms and conditions..Welcome!!")
+
+    ##note:% is used for finding the reminder,/is used for finding the value.
+#eg no:2,get input for a number and check whether it is divisible by both 3 and 5 or not.if yes then print,the number is divisible by 3 and 5 else print the number is not divisible by 3 and 5.
+##and ,or ,not are all binary operators.
+
+#num=int(input("Enter a number:"))
+
+#if (num%3==0 and num%5==0):
+#    print("yes it is divisible by 3 and 5")
+#else:
+#    print("not it is not divisible by 3 and 5")
+
+#eg no:3,get input for a number find it is even or odd.
+#num=int(input("Enter the number:"))
+#if (num%2==0):
+#    print("The given number is even")
+#else:
+#    print("The given number is odd")
+
+##if the (if)condition is used it will take a time but instead use (elif)
+score=int(input("Score:"))
+if (score<35):
+    print("poor student")
+elif(score>35 and score<75):
+    print("Average student")
+elif(score>75 and score<100):
+    print("The topper")
+else:
+    print("Invalid score")
