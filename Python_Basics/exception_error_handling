@@ -1,0 +1,56 @@
+# 3 types of error 
+# 1. compile time error
+# print("hi")
+# print("bye")
+# prrint("hey") # syntax error
+
+# # 2. logical error
+# a=10
+# b=20
+# print(a+a)
+
+# # 3. run time error
+# a=int(input())
+# b=int(input())
+# print(a+b)
+# exception handling
+# try :
+#     a=int(input())
+#     b=int(input())
+#     print(a+b)
+# except Exception :
+#     print ("Doodie oops!!")
+
+# try :
+#     a=int(input())
+#     b=int(input())
+#     print(a/b)
+# except Exception as e :
+#     print ("Doodie oops!!",e)
+
+# try :
+#     a=int(input())
+#     b=int(input())
+#     c=input()
+#     print(c/a)
+#     print(d)
+# except ValueError as e:
+#     print ("ValueError",e)
+# except TypeError as e:
+#     print("Type Error",e)
+# except Exception:
+#     print("Something Wrong")
+# except NameError as e:
+#     print("Type Error",e)
+
+# try :
+#     a=int(input())
+#     b=int(input())
+#     c=int(input())
+#     print(a+b+c)
+# except ValueError as e:
+#     print ("ValueError",e)
+# except Exception:
+#     print("Something Wrong")
+# finally:
+#     print("success!")
