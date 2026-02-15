@@ -1,1 +1,13 @@
+# class laptop ():
+#     chargertype = "c type"
+#     @classmethod  #decorators
+#     def changechargertype (cls):
+#         cls.chargertype = "B type"
+#         print("charger type changed to ",cls.chargertype)
+#     @staticmethod
+#     def info():
+#         print("hi hello")
+        
 
+# laptop.changechargertype()
+# laptop.info
