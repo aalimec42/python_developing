@@ -1,1 +1,35 @@
+# set s_username = "xxxx",s_password ="123"
+#get input from username and the password . create a func called validate .
+#if username and password matches the func should return true else false .
+# username = "xxxx"
+# pswd = 123
+# def validate(m,j):
+#     if(u_input == username and u_pswd == pswd ):
+#         print("yeah u r welcome")
+#         return True
+        
+#     else:
+        
+#         print("Inavlid username or password !!! ")
+#         return False
+    
+# u_input = input("Enter user_name:")
+# u_pswd = int (input("Enter your pswd:"))
+ 
+# print(validate(u_input,u_pswd))
 
+#(a+b)*c // Get input for a and b func called add() which should return the sum of a and b and multiply that sum  with c
+
+# a = int(input("Enter the num of a:"))
+# b = int(input("Enter the num of b:"))
+# c = int(input("Enter the num of c:")) 
+
+# def add(m,n):
+#     return (a+b)
+
+# added = add(a,b)
+# op = added*c
+
+# print(op)
+
+#/////// note input(),print() are pre-built func
