@@ -1,0 +1,15 @@
+# File handling
+# f =open("fruits.txt","w") #default only read
+# print (f) or   # now u can write when "w" and "r+"
+# content = (f.read())
+# print (content) # "a"
+# f.write("banana") # (f.readline())
+# f.close()
+
+# f.open ("fruits.txt","a")
+# f.write("apple\n")
+# f.write("orange\n")
+# f.close()
+
+# f=open("fruits,txt","r+")
+# print(f.readline())
