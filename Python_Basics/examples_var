@@ -1,1 +1,33 @@
+#name=input("my name is :")
+#age=int(input("my age is:"))
+#print(name)
+#print(age)
 
+#also above ,then below
+
+#name=str(input())
+#age=int(input())
+#print("my nameis:",name)
+#print("my age is:",age)
+
+#eg1
+#another examplles get the input for variable,name and age,address.print it.
+#sample input:emc ,1, xxxx
+
+#eg2
+##get integer input for variable a,b,c.
+#multiply all 3 variables(a*b*c)
+#add all 3 varibles(a+b+c)
+#divide the multiplied value by added values
+#print it.
+
+#a=int(input("A ="))
+#b=int(input("B ="))
+#c=int(input("C ="))
+#d=a*b*c
+#f=a+b+c
+#print("Multiplied values:",d)
+#print("Added values:",f)
+#print("Divided values:",d/f)
+
+#eg3 get intput for variable name,score,dept
