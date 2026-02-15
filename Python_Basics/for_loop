@@ -1,1 +1,135 @@
+#for i in"apple":
+  #  print(i)
+#for j in range(5):
+#    print(j)
 
+#for ij in range (3,9):
+  #  print(ij)
+for i in range(1,11):
+    print("2 X",i,"=",2*i)
+
+for i in range(1,11):
+    print("11 X",i,"=",11*i)
+
+***** part 2 ******
+#     get input for number a and b.print the numbers between a and b
+# a=int(input("a ="))
+# b=int(input("b ="))
+# for i in range(a,b):
+#       print(i)
+#    print even numbers between 2 to 46
+# for i in range(2,46):
+#     if(i%2==0):
+#      print(i)
+#     count the number of even numbers between 1 to 10
+#    count=0
+#    for i in range(1,10):
+#           if(i%2==0):
+#               count=count+1
+#    print(count)
+   
+#    count the number of odd and even numbers between 1 to 10
+#    e_count=0
+#    o_count=0
+#    for i in range(1,11):
+#          if(i%2==0):
+#              e_count=e_count+1
+#          else:
+#              o_count=o_count+1
+#    print("e_count:",e_count)
+#    print("o_count:",o_count)
+
+#    count the number which are divisible by 3 and 5 range 1-100
+#    count=0
+#    for i in range(1,100):
+#         if(i%3==0 and i%5==0):
+#             count=count+1
+#    print(count)
+
+#    write a program to compute the sum of the first 5 natural numbers 
+#    add=0
+#    for i in range(1,6):
+#        add=add+i
+#    print(add)
+
+#    count the number of odd numbers between 1 to 100
+#  count=0
+#  for i in range (1,101):
+#        if(i%2 != 0):
+#            count += 1
+
+#  print(count)         
+
+***** part 3 ******
+#    write a program to read 10 numbers from the keyboard and find their sum and average. 
+#   a = []
+#   print ("Enter 10 numbers below:")
+#   for i in range (10):
+#       num = int(input("Enter num" + str(i+1) + "="))
+#       a.append(num)
+#   print("list of 10 numbers",a)  
+#   sum = 0
+#   for i in a :
+#       sum = sum + i
+#       average = sum/10
+#   print("sum of the numbers =",sum)
+#   print("Average of the numbers =",average)    
+
+#   write a program to display n terms of natural numbers and their sum
+#   test data:7
+#   expected output:the first 7 nns is: 1,2,3,4,5,6,7
+#  n=int(input("Enter n term of natural number:"))
+#  sum = 0
+#  for i in range(1,n+1):
+#      print("The natural numbers are:",i)
+#      sum = sum + i
+#  print("Sum of the natural numbers are:",sum)
+
+# write a program to display the cube of the number up to an integer. 
+#  test data :input no of terms : 5  expected output:
+#   no is :1 and cube of the 1 is :1
+#   no is :2 and cube of the 2 is :8
+#   no is :3 and cube of the 3 is :27
+#   no is :4 and cube of the 4 is :64
+#   no is :5 and cube of the 5 is :125
+#   n = int(input("Enter the value upto the cube to be calculated:"))
+#   print("No.of.terms :")
+#   for i in range (1,n+1):
+#       print(i)
+#       cube = i*i*i
+#       print("no is :",str(i)+ "and cube of the ",str(i) + "is  =",cube) 
+
+#  n = int(input("Input number of terms: "))
+#  for i in range(1, n + 1):
+#      print("no is :", i, "and cube of the", i, "is :", i**3)
+  
+#   write a program to display a pattern like a right angle triangle using an asterisk. 
+#   the pattern be like :
+#   *
+#   **
+#   ***
+#   ****
+# rows = int(input("Enter no.of.rows:"))
+# for i in range (1,rows +1):
+#     print("*"*i)
+
+# rows= int(input("Enter no of rows to reverse:"))
+# for i in range (rows,0,-1):
+#     print("*"*i)
+
+    #    *
+    #   ***
+    #  *****
+    # *******
+# rows = int(input("Enter no of rows:"))
+
+# for i in range (1 , rows + 1):
+#     print(" " * (rows - i) + "*" * (2 * i -1))
+
+# rows = 5
+# for i in range (1,rows+1):
+#     print("*"*i)
+
+#  rows = int(input("Enter no.of.rows:"))
+#  for i in range (1,rows +1):
+#     print("*"*i)
