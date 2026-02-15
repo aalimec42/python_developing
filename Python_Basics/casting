@@ -1,1 +1,15 @@
+#converting one data type into another data type
+#within the quotation marks whatever it is considered as a string,so here s+s = ss
+#a="20"
+#b="30"
+#a=int("20")
+#b=int("30")
+#c=a+b
+#print(c)
 
+#while getting input from the user it is just saving a string ,so we make there casting lets see eg
+
+a=int(input())
+b=int(input())
+c=a+b
+print(c)
