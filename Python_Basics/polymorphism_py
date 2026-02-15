@@ -1,1 +1,96 @@
+# the word polymorphism means having many forms . In programming ,polymorphism means
+# the same func name (but different signatures) being used for diff types.the key difference is the data type and number of arguments used in func.
+# def add (a,b,c=0): #poly = many ; morphism = change (their character from what they are actual) morphiya gang..
+#     print(a+b+c)
 
+# add(10,20)
+# add(34,35,65)
+
+#create a class called animal with a method sound ()that prints "Animal makes a sound." Create a derived class called dog that inherits from Animal and overrides the sound() method 
+# to print "Dog barks".Create another derived class called Bird that inherits from Animal and overrides the sound() method to print "Birds Sing".
+
+# class animal():
+#     def sound (self):
+#        print("Animal makes a  sound ")
+# class dog (animal):  # this makes method override 
+#     def sound (self):
+#         print("Dog barks")
+# class bird (animal):
+#     def sound  (self):
+#         print("Birds Sing")
+
+# d = dog()
+# d.sound()
+# b = bird()
+# b.sound()
+
+# create a base class called shape with a method area()that returns 0. 
+#create a derived class called Rectangle that inherits from shape and overrides the area() method to calculate and return the area of a rectangle.
+# class shape ():
+#     def area (self):
+#         return 0
+# class rectangle (shape):
+#     def area (self):
+#        l = 10
+#        b = 20
+#        print(l*b)
+# a = rectangle ()
+# a.area()
+# print(a.area())
+
+# create a base class caleed person with a constructor that takes a name as a parameter.
+# create a derived class called student that inherits from person and has a constructor that takes a parameter called grade.
+# write a method in student to display to display the name and grade of the student. use super keyword to achieve this.
+# Base class
+# class person ():
+#     def __init__(self,name):
+#         self.name = name
+# # Derived class
+# class student (person):
+#     def __init__(self,name, grade):
+#         super().__init__(name) #calling person constructor
+#         self.grade = grade
+#     def display (self):
+#         print("Name of the student:",self.name,"\n"
+#              "Grade of the student:",self.grade )
+        
+# stud1 = student("Maddy","A")
+# stud1.display()
+
+# create a base called vehicle with a method start () that prints "Vehicle started ". 
+# create a derived class called car that inherits from vehicle and overrides the start()
+# method to print.
+
+# Base class
+# class vehicle ():
+#     def start (self):
+#         print("vehicle started")
+# # Derived class
+# class car (vehicle):
+#     def start (self): # SAME method name
+#         super().start()
+#         print("car started") # Parent method is REPLACED
+# d1 = car()
+# d1.start()
+
+# create a base class called employee with properties name and salary . #create a derived class 
+# called manager that inherits from employee and adds a property department.
+# write a method in manager in manager to display the name,salary , and department of the manager.
+ 
+# Base class
+# class employee ():
+#      def __init__(self,name,salary):
+#           self.name = name 
+#           self.salary = salary
+# # Derived class 
+# class manager (employee):
+#      def __init__(self,name,salary,dept):
+#           super().__init__(name,salary)
+#           self.dept = dept
+#      def display (self):
+#           print("Name of the manager : ",self.name, "\n"
+#                 "Salary of the manger : ",self.salary, "\n"
+#                 "Department of the manager : ",self.dept)
+          
+# head = manager("Maddy",85000,"IT")
+# head.display()
