@@ -1,1 +1,102 @@
+#  single and multiple inheritance 
 
+# class dad ():
+#     def bike (self):
+#         print("son can also use my bike")
+
+# class mom ():
+#     def dish (self):
+#         print("whole family can have my dish.")
+
+# class son (dad,mom): # single and multiple inheritance
+#     def ride (self):
+#         print("i only ride the bike")
+
+# jack = son()
+# jack.ride()
+# jack.bike()
+# jack.dish()
+
+# Multi level inheritance  :
+
+# class grandpa ():   # (dad,son): cannot br used bcauz code only see top to bottom so that dad and son are not defined
+#         def phone (self):
+#         print ("my son and my grand son can use my accessories.")
+
+# class dad (grandpa):
+#     def cash(self):
+#         print("my son can access me and also my pa by me")
+
+# class son(dad):
+#     def mine(self):
+#         print("i can access mine , my dad and grandpa through my dad")
+
+# nun = son ()
+# nun.mine()
+# nun.phone()
+
+# non = dad()
+# non.cash()
+# non.phone()
+
+# noon = grandpa()
+# noon.cash()
+
+# Hierarchical inheritance :
+ 
+# class dad (): # single class can be used by multiple classes 
+#     def money(self):
+#         print("sons can access my money..")
+# class son1 (dad):
+#     pass
+# class son2 (dad):
+#     pass
+# class son3 (dad):
+#     pass
+
+# s2 = son2()
+# s2.money()
+
+# Hybrid inheritance
+ # single , multiple , multilevel , hierarchical are mixed in one so they are hybrid inheritance.
+
+# class dad ():
+#         def money ():
+#             print("sons can access my money..")
+
+# class land ():
+#     def imp():
+#         print("this land belongs to all my sons")
+             
+# class son1 (dad,land):
+#     pass
+# class son2 (dad):
+#     pass
+# class son3 (dad):
+#     pass
+
+# s2 = son2()
+# s2.money()
+
+# super keyword in python 
+   # if the constructor in the class it will run the same class or it is not there it will inherit from the parent class
+# class a ():
+#         def __init__(self):
+#              print("A")
+#         def money (self):
+#             print("sons can access my money..")
+
+# class b(a):
+#        def __init__(self):
+#             super(). __init__()  #this is the super keyword 
+#             print("B")
+#        def imp(self):
+#           print("this land belongs to all my sons")
+
+# class c(b):
+#        def __init__(self):
+#             super(). __init__()  #this is the super keyword 
+#             print("C")
+#        def imp(self):
+#           print("this land belongs to all my sons")
+# o = c()
