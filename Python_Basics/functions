@@ -1,1 +1,78 @@
+#create a func called add(),sub(),mul(),div() and get input for a and b inside every func then print the result
+# def add():
+#     print("Addition:")
+#     a = int(input("Enter a:"))
+#     b = int(input("Enter b:"))
+#     print("Addttion =", a+b)
 
+# def mul():
+#     print("Multiplication:")
+#     a = int(input("Enter a:"))
+#     b = int(input("Enter b:"))
+#     print("Multiplication =", a*b)
+    
+# def sub():
+#     print("Subtraction:")
+#     a = int(input("Enter a:"))
+#     b = int(input("Enter b:"))
+#     print("Subtraction =", a-b)
+    
+# def div():
+#     print("Division:")
+#     a = int(input("Enter a:"))
+#     b = int(input("Enter b:"))
+#     print("Division =", a/b)
+    
+# def mod():
+#     print("Mod:")
+#     a = int(input("Enter a:"))
+#     b = int(input("Enter b:"))
+#     print("Mod =", a%b)
+    
+# mod()
+
+# sub()
+
+# add()
+
+# mul()
+
+# div()
+
+#Get a int num from user and pass it to the func called findevenorodd().let the func print whether the number is even or odd
+# i = int(input("Enter a input num bcauz u r the user:"))
+# def fevood():
+#     if (i%2 == 0):
+#         print("The given num is even..")
+#     else:
+#         print("The given num is odd..")    
+
+# fevood()
+
+#method
+# def pot(cu):
+#     print("msg =",cu)
+# a  = 10
+# pot(a) 
+#potter("potter makes the order of the pots to seven thousand")
+
+#Get a integer number from user and pass it to the function called findpassorfail().let the func print whether the number is pass or fail.
+
+# def result(m):
+#     if (mark > 35):
+#         print("the mark you got is pass")
+#     else:
+#         print("the mark you have got is fail")
+
+# mark = int(input("Enter the marks you have got :"))
+# result(mark)
+
+#Get input for a and b and pass it to the func called printrange()let the func print numbers from a to b
+
+# def printrange(m,j):
+#     for i in range(a,b+1):
+#         print(i,end=",")
+# a = int(input("Enter the number for a:"))
+# b = int(input("Enter the number for b:"))
+
+# printrange(a,b)
